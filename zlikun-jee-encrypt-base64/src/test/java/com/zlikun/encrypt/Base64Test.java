@@ -1,4 +1,4 @@
-package com.zlikun.encryption;
+package com.zlikun.encrypt;
 
 import org.apache.commons.codec.binary.Base64;
 import org.junit.Assert;

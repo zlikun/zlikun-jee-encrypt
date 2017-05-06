@@ -1,4 +1,4 @@
-package com.zlikun.encryption;
+package com.zlikun.encrypt;
 
 import java.security.InvalidKeyException;
 import java.security.KeyFactory;
