@@ -4,3 +4,10 @@
 .project
 */.project
 */.classpath
+
+.idea
+*/.idea
+*.iml
+
+*.class
+*.log

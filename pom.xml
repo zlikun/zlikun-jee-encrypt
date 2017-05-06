@@ -8,14 +8,14 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>zlikun-jee-encrypt-rsa</module>
 		<module>zlikun-jee-encrypt-base64</module>
 		<module>zlikun-jee-encrypt-hash</module>
 		<module>zlikun-jee-encrypt-symmetrical</module>
+		<module>zlikun-jee-encrypt-rsa</module>
 	</modules>
 
 	<properties>
-		<java.version>1.7</java.version>
+		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>4.12</junit.version>
 	</properties>
