@@ -8,4 +8,14 @@
     </parent>
     <artifactId>zlikun-jee-crypto-symmetrical</artifactId>
     <description>对称加密，AES等</description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk16</artifactId>
+        </dependency>
+
+    </dependencies>
+
 </project>
