@@ -2,16 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.zlikun.encrypt</groupId>
-	<artifactId>zlikun-jee-encrypt</artifactId>
+	<groupId>com.zlikun.crypto</groupId>
+	<artifactId>zlikun-jee-crypto</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>zlikun-jee-encrypt-base64</module>
-		<module>zlikun-jee-encrypt-hash</module>
-		<module>zlikun-jee-encrypt-symmetrical</module>
-		<module>zlikun-jee-encrypt-rsa</module>
+		<module>zlikun-jee-crypto-base64</module>
+		<module>zlikun-jee-crypto-hash</module>
+		<module>zlikun-jee-crypto-symmetrical</module>
+		<module>zlikun-jee-crypto-rsa</module>
 	</modules>
 
 	<properties>

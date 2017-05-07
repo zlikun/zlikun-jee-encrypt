@@ -1,4 +1,4 @@
-package com.zlikun.encrypt;
+package com.zlikun.crypto;
 
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;

@@ -1,7 +1,6 @@
-package com.zlikun.encrypt;
+package com.zlikun.crypto;
 
 import java.io.IOException;
-import java.net.URL;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.junit.Assert;

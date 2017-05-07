@@ -1,4 +1,4 @@
-package com.zlikun.encrypt;
+package com.zlikun.crypto;
 
 import org.apache.commons.codec.binary.Base64;
 import org.junit.Assert;
@@ -22,7 +22,8 @@ import java.security.spec.X509EncodedKeySpec;
 public class RSATest {
 	
     private final static String KEY_RSA = "RSA";
-    private final static String SIGNATURE_ALGORITHM = "MD5withRSA" ;
+//    private final static String SIGNATURE_ALGORITHM = "MD5withRSA" ;
+    private final static String SIGNATURE_ALGORITHM = "SHA256withRSA" ;
 
 	private KeyFactory factory ;
 	private Cipher cipher ;

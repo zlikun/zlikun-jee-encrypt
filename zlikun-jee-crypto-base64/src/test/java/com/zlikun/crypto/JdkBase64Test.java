@@ -1,4 +1,4 @@
-package com.zlikun.encrypt;
+package com.zlikun.crypto;
 
 import java.util.Base64;
 import java.util.Base64.Encoder;
