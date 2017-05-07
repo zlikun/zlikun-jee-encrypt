@@ -6,7 +6,7 @@ import org.junit.Test;
 
 /**
  * commons-codec BASE64加解密测试用例
- * @author	zlikun
+ * @author zlikun <zlikun-dev@hotmail.com>
  * @date	2016年5月14日 下午3:56:21
  */
 public class Base64Test {

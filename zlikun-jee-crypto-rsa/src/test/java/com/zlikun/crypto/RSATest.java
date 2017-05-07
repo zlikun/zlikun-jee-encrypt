@@ -16,7 +16,7 @@ import java.security.spec.X509EncodedKeySpec;
 
 /**
  * RSA非对称加密算法
- * @author	zhanglikun
+ * @author zlikun <zlikun-dev@hotmail.com>
  * @date	2015年11月21日
  */
 public class RSATest {

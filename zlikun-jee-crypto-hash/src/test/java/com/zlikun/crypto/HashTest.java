@@ -7,8 +7,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * 哈希加密
- * @author	zlikun
+ * 哈希加密(散列算法、摘要算法)
+ * @author zlikun <zlikun-dev@hotmail.com>
  * @date	2016年5月14日 下午4:43:22
  */
 public class HashTest {

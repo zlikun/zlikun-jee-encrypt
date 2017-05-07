@@ -8,7 +8,7 @@ import org.junit.Test;
 
 /**
  * JDK 自带BASE64 API，JDK8开始提供
- * @author	zlikun
+ * @author zlikun <zlikun-dev@hotmail.com>
  * @date	2016年5月14日 下午4:05:27
  */
 public class JdkBase64Test {

@@ -13,7 +13,7 @@ import org.junit.Test;
 
 /**
  * 将文件转换为BASE64编码，通常用于图片
- * @author	zlikun
+ * @author zlikun <zlikun-dev@hotmail.com>
  * @date	2016年5月14日 下午4:16:22
  */
 public class FileBase64Test {
