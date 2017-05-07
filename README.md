@@ -22,5 +22,8 @@
 - <http://stackoverflow.com/questions/17989883/the-cipher-aes256-cbc-is-required-but-it-is-not-available>
 - <http://bbs.csdn.net/topics/360204005#post-371051116>
 
+#### IDEA
+> Java默认未提供IDEA实现，由Bouncy Castle库提供实现
+
 #### 参考资料
 - [让你完全理解base64是怎么回事](https://segmentfault.com/a/1190000004533485)
