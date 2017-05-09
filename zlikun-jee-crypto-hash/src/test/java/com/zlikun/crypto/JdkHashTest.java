@@ -31,6 +31,8 @@ public class JdkHashTest {
         // 生成摘要
         byte [] digest = md.digest() ;
 
+        md.reset();
+
         // 96e79218965eb72c92a549dd5a330112
         System.out.println(String.format("生成摘要：%s" ,toHexString(digest))); ;
 
