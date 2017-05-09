@@ -11,7 +11,7 @@ import org.junit.Test;
  * @author zlikun <zlikun-dev@hotmail.com>
  * @date	2016年5月14日 下午4:43:22
  */
-public class HashTest {
+public class CodecHashTest {
 
 	@Test
 	public void md5() throws IOException {
@@ -20,14 +20,14 @@ public class HashTest {
 		Assert.assertEquals("e10adc3949ba59abbe56e057f20f883e", DigestUtils.md5Hex("123456"));
 
 		// 文件(流) MD5
-		Assert.assertEquals("486195e1dd53d5dafd9ae0ad4235b76f", DigestUtils.md5Hex(HashTest.class.getClassLoader().getResourceAsStream("logo.gif")));
+		Assert.assertEquals("486195e1dd53d5dafd9ae0ad4235b76f", DigestUtils.md5Hex(CodecHashTest.class.getClassLoader().getResourceAsStream("logo.gif")));
 		
 	}
 	
 	@Test
 	public void sha1() throws IOException {
 		Assert.assertEquals("7c4a8d09ca3762af61e59520943dc26494f8941b", DigestUtils.sha1Hex("123456"));
-		Assert.assertEquals("90d57f9797859130764c478825f848efa46751d0", DigestUtils.sha1Hex(HashTest.class.getClassLoader().getResourceAsStream("logo.gif")));
+		Assert.assertEquals("90d57f9797859130764c478825f848efa46751d0", DigestUtils.sha1Hex(CodecHashTest.class.getClassLoader().getResourceAsStream("logo.gif")));
 	}
 
 	@Test
