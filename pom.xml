@@ -12,7 +12,8 @@
 		<module>zlikun-jee-crypto-hash</module>
 		<module>zlikun-jee-crypto-symmetrical</module>
 		<module>zlikun-jee-crypto-rsa</module>
-	</modules>
+        <module>zlikun-jee-crypto-java-security</module>
+    </modules>
 
 	<properties>
 		<java.version>1.8</java.version>
