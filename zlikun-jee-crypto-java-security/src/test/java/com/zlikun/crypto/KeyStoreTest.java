@@ -27,7 +27,7 @@ public class KeyStoreTest {
 
         KeyPair keyPair = null;
 
-        Key key = keystore.getKey("api.zlikun.com", password);
+        Key key = keystore.getKey(alias, password);
         if (key instanceof PrivateKey) {
             java.security.cert.Certificate cert = keystore.getCertificate(alias);
             PublicKey pubKey = cert.getPublicKey();
